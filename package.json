@@ -1,0 +1,29 @@
+{
+  "name": "ac-2-kahek1814",
+  "version": "1.0.0",
+  "description": "a scss exam!",
+  "main": "index.html",
+  "scripts": {
+    "build:sass": "node-sass style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Softrefine-Internship/ac-2-Kahek1814.git"
+  },
+  "keywords": [
+    "karan",
+    "scss2",
+    "scss",
+    "exam2"
+  ],
+  "author": "karan gohel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Softrefine-Internship/ac-2-Kahek1814/issues"
+  },
+  "homepage": "https://github.com/Softrefine-Internship/ac-2-Kahek1814#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.13.1",
+    "nodesass": "^0.0.2-security"
+  }
+}

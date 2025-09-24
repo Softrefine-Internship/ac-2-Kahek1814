@@ -1,0 +1,39 @@
+.maincontent{
+    padding:1.8rem 2.4rem;
+
+    &--heading{
+        margin-bottom: 1.8rem;
+        & h3{
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 1.2rem;
+        }
+
+        &__searchbar{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+             border: 1px solid #c5c5c58c;
+             padding: .9rem;
+            border-radius: 36px;
+             & svg{
+                height: 14px;
+                width: 14px;
+                fill: #808080e5;
+               
+             }
+             & input{
+                width: 95%;
+                border: none;
+
+                &:focus{
+                    outline: none;
+                }
+                &::placeholder{
+                    color: #808080e5;
+                }
+             }
+        }
+    }
+}
