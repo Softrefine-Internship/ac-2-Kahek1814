@@ -2,9 +2,9 @@
   background-color: #F2ECE2;
 
   &--header {
-    padding: 1.75rem;
+    padding: 1.8rem;
     width: 100%;
-    display: flex;
+    display: flex;  
     flex-direction: column;
     border-bottom: 1px solid #c5c5c58c;
     & h1 {
@@ -17,7 +17,7 @@
   }
 
   &--content {
-
+    overflow-y: hidden;
     padding: 1.8rem;
 
     &__item {

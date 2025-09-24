@@ -22,3 +22,33 @@ svg:hover{
 .mb-5{
     margin-bottom: 1.8rem;
 }
+.dot{
+    height: 4px;
+    width: 4px;
+    background-color:black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.color-dark-orange{
+    background-color: #F0894D;
+}
+.color-light-orange{
+    background-color: #FCE6BD;
+}
+button{
+    cursor: pointer;
+}
+
+.orangerad{
+    background-color: orangered !important;
+}
+.green{
+    background-color: yellowgreen;
+}
+.mm5{
+    margin-right: -5px;
+}
+.white{
+    background-color: #fff;
+}
