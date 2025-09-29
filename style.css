@@ -92,8 +92,8 @@ button {
       align-items: center;
       transition: .25s; }
       .header--icons__wrapper__icon {
-        height: 2.4rem;
-        width: 2.4rem;
+        height: 1.8rem;
+        width: 1.8rem;
         fill: #838282; }
       .header--icons__wrapper:hover {
         background-color: #F2ECE2; }
@@ -105,8 +105,8 @@ button {
     border-radius: 50%; }
     .header--questionicon svg {
       fill: white;
-      height: 2.8rem;
-      width: 2.8rem; }
+      height: 2.2em;
+      width: 2.2em; }
     .header--questionicon:hover {
       scale: 1.1; }
 
@@ -252,7 +252,7 @@ button {
         margin-bottom: 1.2rem; }
       .maincontent--content__card__tittle p {
         font-size: 1rem;
-        font-weight: 400; }
+        font-weight: 300; }
       .maincontent--content__card__progressbar {
         margin-top: auto; }
         .maincontent--content__card__progressbar__p {

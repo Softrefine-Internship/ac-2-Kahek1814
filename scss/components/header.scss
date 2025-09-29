@@ -48,8 +48,8 @@
             align-items: center;
             transition: .25s;
              &__icon{
-                height: 2.4rem;
-                width: 2.4rem;
+                height: 1.8rem;
+                width: 1.8rem;
                 fill:  #838282;
                 
             }
@@ -70,8 +70,8 @@
 
         & svg{
             fill: white;
-            height: 2.8rem;
-            width: 2.8rem;
+            height: 2.2em;
+            width: 2.2em;
         }
         &:hover{
             scale: 1.1;
