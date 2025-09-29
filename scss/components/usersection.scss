@@ -230,13 +230,25 @@
         &__card-3{
             padding: 1.2rem;
             box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+            & svg{
+                margin-top: 1rem;
+                height: 7rem;
+                align-self:start;
+               
+            }
         }
         &__card-4{
             padding: 1.2rem;
             box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
             background-color: #F0894D;
             color:#fff;
-            
+          
+            & svg{
+                align-self: flex-end;
+                margin-top: 1rem;
+                
+                
+            }
         }
     }
    }

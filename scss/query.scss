@@ -1,0 +1,118 @@
+@media (min-width: 1400px) {
+  
+
+  html{
+    font-size: 75%;
+  }
+
+  //alging borders
+  .sideheader--header{
+    padding-bottom: 1.2rem;
+  }
+
+  .maincontent--content__card__tittle{margin-bottom: 1.8rem;}
+  .maincontent--heading__searchbar{
+    justify-content: start;
+
+    & input{
+        margin-left: 1rem;
+    }
+  }
+}
+
+@media (max-width: 1104px) {
+  
+html{
+    font-size: 50%;
+}
+
+.sideheader--header{
+    padding-bottom: 2.3rem;
+}
+.header--icons__wrapper__icon {
+  scale: 1.2;
+}
+
+.usersection--dailytask__grid{
+    & p{
+        font-size: 1.4rem;
+    }
+}
+.sideheader--content{
+    & label{
+        font-size: 1.2rem;
+    }
+    & p{
+        font-size: 1.2rem;
+        
+    }
+}
+.maincontent--footer__box__left{
+    & h5{
+        font-size: 1.4rem;
+    }
+}
+.maincontent--footer__box__right{
+    padding: 1.4rem 1rem;
+}
+.maincontent--content__card__tittle{
+    & p{
+        font-size: 1.2rem;
+    }
+}
+.usersection--numbers{
+    & p{
+        font-size: 1.2rem;
+    }
+}
+.maincontent--footer__box__left{
+    & p{
+        font-size: 1.2rem;
+    }
+}
+}
+@media (max-width: 960px){
+    body{
+
+    grid-template-columns:1.5fr 4fr 3fr;
+    grid-template-rows: 60px auto;
+      grid-template-areas:"h h h"
+      "s m u";
+
+    }
+    .header{
+        border-bottom: 1px solid #F0894D;
+        grid-area: h;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 1.8rem 2.8rem 1.8rem 0; 
+
+        &--image{
+            justify-content: start;
+            padding: 1.8rem;
+            width: 80px;
+            border-bottom: none;
+            padding-top: 1rem;
+            &::after{
+                top: 1rem;
+                left:3rem;
+            }
+        }
+        &--icons{
+            display: flex;
+            width: 40%;
+           
+        }
+    }
+    .sideheader{
+        grid-area: s;
+    }
+    .maincontent{
+        grid-area: m;
+    }
+    .usersection{
+        grid-area: u;
+    }
+}
