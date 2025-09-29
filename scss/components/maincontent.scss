@@ -97,7 +97,7 @@
                         align-items: center;
                         font-weight: 600;
                         outline: 1px solid #FCBEA4;
-                         z-index: 2;
+                         z-index: 3;
                     }
                 }   
                 &__right{
@@ -192,7 +192,7 @@
             }
 
             & button{
-                padding: 1.2rem .8rem;
+                padding: .5rem 1.4rem;
                 border: 1px dashed #F0894D;
                 border-radius: 36px;
                 background-color: transparent;

@@ -108,6 +108,7 @@ html{
     }
     .sideheader{
         grid-area: s;
+    
     }
     .maincontent{
         grid-area: m;
@@ -205,5 +206,13 @@ html{
     }
 }
 @media (max-width:462px) {
+   
+}
 
+@media (min-width: 1080px) and (max-width: 1200px) {
+ 
+        .maincontent--content__card{
+            max-height: 280px;
+        }
+       
 }

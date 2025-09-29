@@ -50,6 +50,20 @@ button {
 .white {
   background-color: #fff; }
 
+.header--icons__wrapper:hover {
+  cursor: pointer; }
+
+.maincontent--content__card__heading__left div {
+  position: relative;
+  z-index: 3; }
+
+.maincontent--content__card__heading__left img {
+  position: relative;
+  z-index: 2; }
+
+.z-1 {
+  z-index: 1 !important; }
+
 .header {
   display: flex;
   flex-direction: column;
@@ -232,7 +246,7 @@ button {
             align-items: center;
             font-weight: 600;
             outline: 1px solid #FCBEA4;
-            z-index: 2; }
+            z-index: 3; }
         .maincontent--content__card__heading__right {
           display: flex;
           flex-direction: column;
@@ -295,7 +309,7 @@ button {
         font-size: 1.4rem;
         font-weight: 600; }
       .maincontent--footer__box__inside button {
-        padding: 1.2rem .8rem;
+        padding: .5rem 1.4rem;
         border: 1px dashed #F0894D;
         border-radius: 36px;
         background-color: transparent;
@@ -628,3 +642,7 @@ button {
   .usersection--dailytask__grid__card-3 svg {
     height: 40px;
     margin-top: 3rem; } }
+
+@media (min-width: 1080px) and (max-width: 1200px) {
+  .maincontent--content__card {
+    max-height: 280px; } }
