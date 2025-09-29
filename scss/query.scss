@@ -81,13 +81,13 @@ html{
 
     }
     .header{
-        border-bottom: 1px solid #F0894D;
+        border-bottom: 1px solid #f0894d2d;
         grid-area: h;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
 
-        padding: 1.8rem 2.8rem 1.8rem 0; 
+        padding: 1rem 2.8rem 1rem 0; 
 
         &--image{
             justify-content: start;
@@ -115,4 +115,95 @@ html{
     .usersection{
         grid-area: u;
     }
+
+    .usersection--dailytask{
+        & p{
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@media (max-width:912px){
+     
+html{
+    font-size: 39.25%;
+}
+.header--image{
+    &::after{
+       
+        height: 24px;
+        width: 24px;
+    }
+}
+}
+
+@media (max-width:814px) {
+
+    html{
+        font-size: 52%;
+    }
+   body{
+    grid-template-columns: 22rem auto auto;
+    grid-template-areas:"h h h"
+      "s m m"
+      "s u u";
+   }
+   .usersection--dailytask__grid__card-3{
+    & svg{
+        height: 10rem;
+        margin-top: 5rem;
+    }
+   }
+}
+
+@media (max-width:634px){
+ 
+    .usersection--heading--userprofile{
+        & button{
+          padding: .7rem .5rem;
+          font-size: 1.4rem;
+        }
+    }
+    .maincontent--footer__box__left{
+     width: 40%;
+     
+     & p{
+        font-size: 1rem;
+     }
+     & h5{
+        font-size: 1.2rem;
+     }
+    }
+     body{
+    grid-template-columns: 18rem auto auto;
+        
+   }
+
+   .header--icons__wrapper{
+    margin: 0 1rem;
+   }
+
+    .maincontent--content__cards{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .maincontent--content__card{
+        width: 100%;
+    }
+    .usersection--dailytask__grid__card-4{
+        & svg{
+            margin-top: 1rem;
+            width: 100%;
+        }
+    }
+    .usersection--dailytask__grid__card-3{
+        & svg{
+            height: 40px;
+            margin-top: 3rem;
+        }
+    }
+}
+@media (max-width:462px) {
+
 }
