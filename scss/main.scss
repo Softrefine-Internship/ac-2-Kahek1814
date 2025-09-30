@@ -1,74 +1,72 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box ;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-body{       
-    display: grid;
-    grid-template-columns:70px 1.5fr 4fr 3fr;
-    height: 100vh;
-    font-family: Inter;
+body {
+  display: grid;
+  grid-template-columns: 70px 1.5fr 4fr 3fr;
+  height: 100vh;
+  font-family: Inter;
 }
-svg:hover{
-    cursor: pointer;
+svg:hover {
+  cursor: pointer;
 }
-.bold--text{
-    font-weight: 500 !important;
-     cursor: pointer;
+.bold--text {
+  font-weight: 500 !important;
+  cursor: pointer;
 }
-.mb-5{
-    margin-bottom: 1.8rem;
+.mb-5 {
+  margin-bottom: 1.8rem;
 }
-.dot{
-    height: 4px;
-    width: 4px;
-    background-color:black;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.color-dark-orange{
-    background-color: #F0894D;
-}
-.color-light-orange{
-    background-color: #FCE6BD;
-}
-button{
-    cursor: pointer;
+.dot {
+  height: 4px;
+  width: 4px;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
-.orangerad{
-    background-color: orangered !important;
+.color-dark-orange {
+  background-color: #f0894d;
 }
-.green{
-    background-color: yellowgreen;
+.color-light-orange {
+  background-color: #fce6bd;
 }
-.mm5{
-    margin-right: -5px;
+button {
+  cursor: pointer;
 }
-.white{
-    background-color: #fff;
+
+.orangerad {
+  background-color: orangered !important;
 }
-.header--icons__wrapper:hover{
-    cursor: pointer;
+.green {
+  background-color: yellowgreen;
+}
+.mm5 {
+  margin-right: -5px;
+}
+.white {
+  background-color: #fff;
+}
+.header--icons__wrapper:hover {
+  cursor: pointer;
 }
 // changes
-.maincontent--content__card__heading__left{
-   
-   & div{
+.maincontent--content__card__heading__left {
+  & div {
     position: relative;
     z-index: 3;
-   } 
-   & img{
-     position: relative;
+  }
+  & img {
+    position: relative;
     z-index: 2;
-   }
- 
+  }
 }
 
-.z-1{
-    z-index: 1!important;
+.z-1 {
+  z-index: 1 !important;
 }

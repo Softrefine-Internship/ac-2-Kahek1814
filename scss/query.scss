@@ -1,218 +1,235 @@
 @media (min-width: 1400px) {
-  
-
-  html{
+  html {
     font-size: 75%;
   }
 
   //alging borders
-  .sideheader--header{
+  .sideheader--header {
     padding-bottom: 1.2rem;
   }
 
-  .maincontent--content__card__tittle{margin-bottom: 1.8rem;}
-  .maincontent--heading__searchbar{
+  .maincontent--content__card__tittle {
+    margin-bottom: 1.8rem;
+  }
+  .maincontent--heading__searchbar {
     justify-content: start;
 
-    & input{
-        margin-left: 1rem;
+    & input {
+      margin-left: 1rem;
     }
   }
 }
 
-@media (max-width: 1104px) {
-  
-html{
+@media (max-width: 1131px) {
+  html {
     font-size: 50%;
-}
+  }
 
-.sideheader--header{
+  .sideheader--header {
     padding-bottom: 2.3rem;
-}
-.header--icons__wrapper__icon {
-  scale: 1.2;
-}
+  }
+  .header--icons__wrapper__icon {
+    scale: 1.2;
+  }
 
-.usersection--dailytask__grid{
-    & p{
-        font-size: 1.4rem;
+  .usersection--dailytask__grid {
+    & p {
+      font-size: 1.4rem;
     }
-}
-.sideheader--content{
-    & label{
-        font-size: 1.2rem;
+  }
+  .sideheader--content {
+    & label {
+      font-size: 1.2rem;
     }
-    & p{
-        font-size: 1.2rem;
-        
+    & p {
+      font-size: 1.2rem;
     }
-}
-.maincontent--footer__box__left{
-    & h5{
-        font-size: 1.4rem;
+  }
+  .maincontent--footer__box__left {
+    & h5 {
+      font-size: 1.4rem;
     }
-}
-.maincontent--footer__box__right{
+  }
+  .maincontent--footer__box__right {
     padding: 1.4rem 1rem;
-}
-.maincontent--content__card__tittle{
-    & p{
-        font-size: 1.2rem;
+  }
+  .maincontent--content__card__tittle {
+    & p {
+      font-size: 1.2rem;
     }
-}
-.usersection--numbers{
-    & p{
-        font-size: 1.2rem;
+  }
+  .usersection--numbers {
+    & p {
+      font-size: 1.2rem;
     }
-}
-.maincontent--footer__box__left{
-    & p{
-        font-size: 1.2rem;
+  }
+  .maincontent--footer__box__left {
+    & p {
+      font-size: 1.2rem;
     }
+  }
 }
-}
-@media (max-width: 960px){
-    body{
+@media (max-width: 970px) {
+  .usersection {
+    margin-bottom: 30%;
+  }
+  .header--icons__wrapper:hover {
+    background-color: transparent;
+  }
+  .header--icons {
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    margin: 0 auto;
+    border-radius: 18px;
+    width: 90%;
+    background: #f0894d2d;
+    backdrop-filter: blur(4px);
+    padding: 15px 22px;
 
-    grid-template-columns:1.5fr 4fr 3fr;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .header--icons__wrapper svg {
+    fill: black;
+  }
+
+  body {
+    grid-template-columns: 1.5fr 4fr 3fr;
     grid-template-rows: 60px auto;
-      grid-template-areas:"h h h"
+    grid-template-areas:
+      "h h h"
       "s m u";
+  }
+  .header {
+    border-bottom: 1px solid #f0894d2d;
+    grid-area: h;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 
-    }
-    .header{
-        border-bottom: 1px solid #f0894d2d;
-        grid-area: h;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
+    padding: 1rem 2.8rem 1rem 0;
 
-        padding: 1rem 2.8rem 1rem 0; 
+    &--image {
+      justify-content: start;
+      padding: 1.8rem;
+      width: 80px;
+      border-bottom: none;
+      padding-top: 1rem;
+      &::after {
+        top: 1rem;
+        left: 3rem;
+      }
+    }
+  }
+  .sideheader {
+    grid-area: s;
+  }
+  .maincontent {
+    grid-area: m;
+  }
+  .usersection {
+    grid-area: u;
+  }
 
-        &--image{
-            justify-content: start;
-            padding: 1.8rem;
-            width: 80px;
-            border-bottom: none;
-            padding-top: 1rem;
-            &::after{
-                top: 1rem;
-                left:3rem;
-            }
-        }
-        &--icons{
-            display: flex;
-            width: 40%;
-           
-        }
+  .usersection--dailytask {
+    & p {
+      font-size: 1.2rem;
     }
-    .sideheader{
-        grid-area: s;
-    
-    }
-    .maincontent{
-        grid-area: m;
-    }
-    .usersection{
-        grid-area: u;
-    }
-
-    .usersection--dailytask{
-        & p{
-            font-size: 1.2rem;
-        }
-    }
+  }
 }
 
-@media (max-width:912px){
-     
-html{
+@media (max-width: 912px) {
+  html {
     font-size: 39.25%;
-}
-.header--image{
-    &::after{
-       
-        height: 24px;
-        width: 24px;
+  }
+  .header--image {
+    &::after {
+      height: 24px;
+      width: 24px;
     }
-}
+  }
 }
 
-@media (max-width:814px) {
-
-    html{
-        font-size: 52%;
-    }
-   body{
+@media (max-width: 814px) {
+  .usersection--dailytask__grid p {
+    font-size: 1.4rem;
+  }
+  html {
+    font-size: 52%;
+  }
+  body {
     grid-template-columns: 22rem auto auto;
-    grid-template-areas:"h h h"
-      "s m m"
-      "s u u";
-   }
-   .usersection--dailytask__grid__card-3{
-    & svg{
-        height: 10rem;
-        margin-top: 5rem;
+    grid-template-areas:
+      "h h h"
+      "m m m"
+      "u u u";
+  }
+  .sideheader {
+    display: none;
+  }
+  .usersection--dailytask__grid__card-3 {
+    & svg {
+      height: 10rem;
+      margin-top: 5rem;
     }
-   }
+  }
 }
 
-@media (max-width:634px){
- 
-    .usersection--heading--userprofile{
-        & button{
-          padding: .7rem .5rem;
-          font-size: 1.4rem;
-        }
+@media (max-width: 634px) {
+  .maincontent--content__card {
+    height: 10vh;
+  }
+  .usersection--heading--userprofile {
+    & button {
+      padding: 0.7rem 0.5rem;
+      font-size: 1.4rem;
     }
-    .maincontent--footer__box__left{
-     width: 40%;
-     
-     & p{
-        font-size: 1rem;
-     }
-     & h5{
-        font-size: 1.2rem;
-     }
+  }
+  .maincontent--footer__box__left {
+    width: 40%;
+
+    & p {
+      font-size: 1rem;
     }
-     body{
+    & h5 {
+      font-size: 1.2rem;
+    }
+  }
+  body {
     grid-template-columns: 18rem auto auto;
-        
-   }
+  }
 
-   .header--icons__wrapper{
+  .header--icons__wrapper {
     margin: 0 1rem;
-   }
+  }
 
-    .maincontent--content__cards{
-        display: flex;
-        flex-direction: column;
-
+  .maincontent--content__cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .maincontent--content__card {
+    width: 100%;
+  }
+  .usersection--dailytask__grid__card-4 {
+    & svg {
+      margin-top: 1rem;
+      width: 100%;
     }
-    .maincontent--content__card{
-        width: 100%;
+  }
+  .usersection--dailytask__grid__card-3 {
+    & svg {
+      height: 40px;
+      margin-top: 3rem;
     }
-    .usersection--dailytask__grid__card-4{
-        & svg{
-            margin-top: 1rem;
-            width: 100%;
-        }
-    }
-    .usersection--dailytask__grid__card-3{
-        & svg{
-            height: 40px;
-            margin-top: 3rem;
-        }
-    }
+  }
 }
-@media (max-width:462px) {
-   
+@media (max-width: 462px) {
 }
 
 @media (min-width: 1080px) and (max-width: 1200px) {
- 
-        .maincontent--content__card{
-            max-height: 280px;
-        }
-       
+  .maincontent--content__card {
+    max-height: 280px;
+  }
 }

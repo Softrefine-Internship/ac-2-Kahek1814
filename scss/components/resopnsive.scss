@@ -1,0 +1,109 @@
+.header--menu,
+.header--close {
+  display: none;
+  margin-right: 1.8rem;
+}
+.side-menu {
+  display: none;
+}
+.overlay {
+  display: none;
+}
+.close-arrow {
+  display: none;
+}
+@media (max-width: 814px) {
+  .header--questionicon {
+    display: none;
+  }
+
+  // css for menu
+
+  .side-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+    background-color: #f0894d;
+    color: #fff;
+    padding: 10px 7px;
+    border-radius: 50px 0 0 50px;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    font-size: 1.4rem;
+    top: 1.5%;
+    right: 0;
+    // animation: popup .5s ease 3s infinite;
+    animation: popup 0.8s ease 2s 2;
+
+    z-index: 1000;
+
+    & svg {
+      transform: rotate(90deg);
+      transition: all 0.8s;
+      margin-right: 4px;
+    }
+  }
+  .side-menu:hover {
+    padding-left: 10px;
+  }
+  @keyframes popup {
+    50% {
+      padding-left: 15px;
+    }
+  }
+  #sidemenu:checked ~ .sideheader {
+    display: block;
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 180px;
+    z-index: 1001;
+  }
+  #sidemenu:checked ~ .side-menu {
+    right: 180px;
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+    z-index: 10;
+  }
+  #sidemenu:checked ~ .overlay {
+    display: block;
+  }
+
+  #sidemenu:checked ~ .side-menu {
+    & svg {
+      transform: rotate(270deg);
+    }
+  }
+}
+
+.usersection--heading--userprofile--user--downarrow {
+  background-color: #f0894d33;
+  height: 10px !important;
+  width: 10px !important;
+  fill: #f0894d;
+  border-radius: 50%;
+  box-sizing: content-box;
+  padding: 3px;
+}
+.bg {
+  display: flex;
+  height: 30%;
+  width: 30%;
+}
+
+.mlauto {
+  margin-top: 5px;
+  height: 40%;
+  width: 40%;
+  margin-left: auto !important;
+}

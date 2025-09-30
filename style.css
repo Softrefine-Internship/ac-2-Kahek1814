@@ -30,10 +30,10 @@ svg:hover {
   cursor: pointer; }
 
 .color-dark-orange {
-  background-color: #F0894D; }
+  background-color: #f0894d; }
 
 .color-light-orange {
-  background-color: #FCE6BD; }
+  background-color: #fce6bd; }
 
 button {
   cursor: pointer; }
@@ -125,7 +125,8 @@ button {
       scale: 1.1; }
 
 .sideheader {
-  background-color: #F2ECE2; }
+  background-color: #f2ece2;
+  transition: all 0.8s; }
   .sideheader--header {
     padding: 1.8rem;
     width: 100%;
@@ -160,10 +161,10 @@ button {
       .sideheader--content__item__body {
         display: none;
         padding-left: 1rem;
-        padding-top: .8rem; }
+        padding-top: 0.8rem; }
         .sideheader--content__item__body p {
           font-weight: 300;
-          padding: .5rem;
+          padding: 0.5rem;
           text-transform: capitalize; }
       input[type="checkbox"]:checked + .sideheader--content__item__heading + .sideheader--content__item__body {
         display: block; }
@@ -184,7 +185,7 @@ button {
       justify-content: space-between;
       width: 100%;
       border: 1px solid #c5c5c58c;
-      padding: .9rem;
+      padding: 0.9rem;
       border-radius: 36px; }
       .maincontent--heading__searchbar svg {
         height: 14px;
@@ -210,7 +211,7 @@ button {
         font-weight: 600; }
       .maincontent--content__heading p {
         font-size: 1.2rem;
-        color: #F0894D;
+        color: #f0894d;
         font-weight: 300;
         cursor: pointer; }
     .maincontent--content__cards {
@@ -218,9 +219,9 @@ button {
       justify-content: space-between;
       gap: 3rem; }
     .maincontent--content__card {
-      background-color: #FCBEA4;
+      background-color: #fcbea4;
       border-radius: 24px;
-      min-height: 47vh;
+      min-height: 28vh;
       max-height: auto;
       display: flex;
       flex-direction: column;
@@ -245,7 +246,7 @@ button {
             justify-content: center;
             align-items: center;
             font-weight: 600;
-            outline: 1px solid #FCBEA4;
+            outline: 1px solid #fcbea4;
             z-index: 3; }
         .maincontent--content__card__heading__right {
           display: flex;
@@ -259,7 +260,7 @@ button {
         margin-left: -6px;
         border-radius: 50%;
         object-fit: cover;
-        outline: 2px solid #FCBEA4; }
+        outline: 2px solid #fcbea4; }
       .maincontent--content__card__tittle h2 {
         font-weight: 500;
         font-size: 1.8rem;
@@ -277,7 +278,7 @@ button {
           height: 4.2px;
           background-color: #11111173;
           border-radius: 36px;
-          margin: .8rem 0; }
+          margin: 0.8rem 0; }
           .maincontent--content__card__progressbar div div {
             width: 40%;
             border-radius: 36px; }
@@ -285,7 +286,7 @@ button {
     font-size: 1.4rem;
     margin-top: 2rem;
     font-weight: 600;
-    margin-bottom: .8rem; }
+    margin-bottom: 0.8rem; }
   .maincontent--footer__box {
     border: 1px solid #80808075;
     padding: 1.8rem 1.2rem;
@@ -309,26 +310,26 @@ button {
         font-size: 1.4rem;
         font-weight: 600; }
       .maincontent--footer__box__inside button {
-        padding: .5rem 1.4rem;
-        border: 1px dashed #F0894D;
+        padding: 0.5rem 1.4rem;
+        border: 1px dashed #f0894d;
         border-radius: 36px;
         background-color: transparent;
         font-family: inter;
         font-size: 1rem; }
 
 .yellow--card {
-  background-color: #FCE6BD !important; }
+  background-color: #fce6bd !important; }
 
 .yellow--border {
-  outline: 2px solid #FCE6BD !important; }
+  outline: 2px solid #fce6bd !important; }
 
 .trans-beg-black--border {
-  background-color: #FCE6BD !important;
+  background-color: #fce6bd !important;
   border: 1px solid black;
   color: black !important; }
 
 .width-75 {
-  width: 75%  !important; }
+  width: 75% !important; }
 
 .usersection {
   box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
@@ -350,7 +351,7 @@ button {
       align-items: center; }
       .usersection--heading--userprofile button {
         border: none;
-        background-color: #F0894D;
+        background-color: #f0894d;
         color: #ffffff;
         padding: 1.2rem 2.4rem;
         border-radius: 36px; }
@@ -364,7 +365,7 @@ button {
           .usersection--heading--userprofile--user--notify::after {
             position: absolute;
             content: "";
-            background-color: #F0894D;
+            background-color: #f0894d;
             height: 4px;
             width: 4px;
             border-radius: 53%;
@@ -388,15 +389,6 @@ button {
             .usersection--heading--userprofile--user--image div h4 {
               font-size: 1.2rem;
               font-weight: 500; }
-        .usersection--heading--userprofile--user--downarrow {
-          background-color: #fcbea433;
-          border-radius: 50%;
-          border: 1px solid #fcbea49a;
-          padding: .3rem; }
-          .usersection--heading--userprofile--user--downarrow svg {
-            fill: #F0894D;
-            height: 8px;
-            width: 8px; }
   .usersection--userprofiles {
     margin-bottom: 2.4rem; }
     .usersection--userprofiles h3 {
@@ -417,12 +409,12 @@ button {
         font-weight: 500;
         background-color: #f0894d3d;
         border-radius: 50%;
-        color: #F0894D; }
+        color: #f0894d; }
       .usersection--userprofiles__images__svg {
         height: 28px !important;
         width: 28px !important;
-        background-color: #f0894d1a  !important;
-        border: 1px dashed #F0894D; }
+        background-color: #f0894d1a !important;
+        border: 1px dashed #f0894d; }
     .usersection--userprofiles img {
       height: 40px;
       width: 40px;
@@ -439,7 +431,7 @@ button {
     .usersection--numbers p {
       font-size: 1rem;
       font-weight: 200;
-      margin-bottom: .5rem; }
+      margin-bottom: 0.5rem; }
     .usersection--numbers h3 {
       font-size: 1.4rem;
       font-weight: 600; }
@@ -451,7 +443,7 @@ button {
       font-size: 1.4rem;
       font-weight: 600; }
     .usersection--dailytask__heading p {
-      color: #F0894D;
+      color: #f0894d;
       font-size: 1.2rem;
       font-size: 300; }
   .usersection--dailytask__grid {
@@ -463,7 +455,7 @@ button {
       border-radius: 12px; }
     .usersection--dailytask__grid__card {
       box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
-      background-color: #F2ECE2;
+      background-color: #f2ece2;
       display: flex;
       flex-direction: column;
       padding: 1.2rem; }
@@ -487,11 +479,14 @@ button {
           font-weight: 300;
           position: relative; }
         .usersection--dailytask__grid__card-2__header input {
-          outline: 1px solid #F0894D;
-          appearance: none;
+          outline: 1px solid #f0894d;
           height: 10px;
           width: 10px;
-          border-radius: 2px; }
+          border-radius: 2px;
+          appearance: none;
+          border: none; }
+          .usersection--dailytask__grid__card-2__header input:checked {
+            background-color: #f0894d; }
       .usersection--dailytask__grid__card-2--data {
         font-size: 1.2rem; }
     .usersection--dailytask__grid__card-3 {
@@ -504,7 +499,7 @@ button {
     .usersection--dailytask__grid__card-4 {
       padding: 1.2rem;
       box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
-      background-color: #F0894D;
+      background-color: #f0894d;
       color: #fff; }
       .usersection--dailytask__grid__card-4 svg {
         align-self: flex-end;
@@ -515,7 +510,7 @@ button {
   width: 10px;
   border: 2px;
   background-color: black;
-  padding: .1rem;
+  padding: 0.1rem;
   box-sizing: content-box;
   border-radius: 2px;
   display: flex;
@@ -531,6 +526,91 @@ button {
   position: relative;
   margin-top: -10%; }
 
+.header--menu,
+.header--close {
+  display: none;
+  margin-right: 1.8rem; }
+
+.side-menu {
+  display: none; }
+
+.overlay {
+  display: none; }
+
+.close-arrow {
+  display: none; }
+
+@media (max-width: 814px) {
+  .header--questionicon {
+    display: none; }
+  .side-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #f0894d;
+    color: #fff;
+    padding: 10px 7px;
+    border-radius: 50px 0 0 50px;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    font-size: 1.4rem;
+    top: 1.5%;
+    right: 0;
+    animation: popup 0.8s ease 2s 2;
+    z-index: 1000; }
+    .side-menu svg {
+      transform: rotate(90deg);
+      transition: all 0.8s;
+      margin-right: 4px; }
+  .side-menu:hover {
+    padding-left: 10px; }
+  @keyframes popup {
+    50% {
+      padding-left: 15px; } }
+  #sidemenu:checked ~ .sideheader {
+    display: block;
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 180px;
+    z-index: 1001; }
+  #sidemenu:checked ~ .side-menu {
+    right: 180px; }
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+    z-index: 10; }
+  #sidemenu:checked ~ .overlay {
+    display: block; }
+  #sidemenu:checked ~ .side-menu svg {
+    transform: rotate(270deg); } }
+
+.usersection--heading--userprofile--user--downarrow {
+  background-color: #f0894d33;
+  height: 10px !important;
+  width: 10px !important;
+  fill: #f0894d;
+  border-radius: 50%;
+  box-sizing: content-box;
+  padding: 3px; }
+
+.bg {
+  display: flex;
+  height: 30%;
+  width: 30%; }
+
+.mlauto {
+  margin-top: 5px;
+  height: 40%;
+  width: 40%;
+  margin-left: auto !important; }
+
 @media (min-width: 1400px) {
   html {
     font-size: 75%; }
@@ -543,7 +623,7 @@ button {
     .maincontent--heading__searchbar input {
       margin-left: 1rem; } }
 
-@media (max-width: 1104px) {
+@media (max-width: 1131px) {
   html {
     font-size: 50%; }
   .sideheader--header {
@@ -567,7 +647,26 @@ button {
   .maincontent--footer__box__left p {
     font-size: 1.2rem; } }
 
-@media (max-width: 960px) {
+@media (max-width: 970px) {
+  .usersection {
+    margin-bottom: 30%; }
+  .header--icons__wrapper:hover {
+    background-color: transparent; }
+  .header--icons {
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    margin: 0 auto;
+    border-radius: 18px;
+    width: 90%;
+    background: #f0894d2d;
+    backdrop-filter: blur(4px);
+    padding: 15px 22px;
+    left: 50%;
+    transform: translate(-50%); }
+  .header--icons__wrapper svg {
+    fill: black; }
   body {
     grid-template-columns: 1.5fr 4fr 3fr;
     grid-template-rows: 60px auto;
@@ -588,9 +687,6 @@ button {
       .header--image::after {
         top: 1rem;
         left: 3rem; }
-    .header--icons {
-      display: flex;
-      width: 40%; }
   .sideheader {
     grid-area: s; }
   .maincontent {
@@ -608,18 +704,24 @@ button {
     width: 24px; } }
 
 @media (max-width: 814px) {
+  .usersection--dailytask__grid p {
+    font-size: 1.4rem; }
   html {
     font-size: 52%; }
   body {
     grid-template-columns: 22rem auto auto;
-    grid-template-areas: "h h h" "s m m" "s u u"; }
+    grid-template-areas: "h h h" "m m m" "u u u"; }
+  .sideheader {
+    display: none; }
   .usersection--dailytask__grid__card-3 svg {
     height: 10rem;
     margin-top: 5rem; } }
 
 @media (max-width: 634px) {
+  .maincontent--content__card {
+    height: 10vh; }
   .usersection--heading--userprofile button {
-    padding: .7rem .5rem;
+    padding: 0.7rem 0.5rem;
     font-size: 1.4rem; }
   .maincontent--footer__box__left {
     width: 40%; }
@@ -646,3 +748,8 @@ button {
 @media (min-width: 1080px) and (max-width: 1200px) {
   .maincontent--content__card {
     max-height: 280px; } }
+
+img {
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 1/1; }
