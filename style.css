@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+.hideme {
+  display: none; }
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth; }
@@ -705,6 +708,8 @@ button {
     width: 24px; } }
 
 @media (max-width: 814px) {
+  .hideme {
+    display: block; }
   .get-top-button {
     height: 36px;
     width: 36px;

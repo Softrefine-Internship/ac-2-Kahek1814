@@ -153,8 +153,11 @@
 }
 
 @media (max-width: 814px) {
-
+.hideme{
+  display: block;
+}
 .get-top-button {
+  
   height: 36px;
   width: 36px;
   transform: rotate(180deg);
